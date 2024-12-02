@@ -55,7 +55,6 @@ CartRouter.delete(
         productId: productId,
         userID: userID,
       });
-      console.log("Cart Item:", cartItem);
 
       if (!cartItem) {
         return res.status(404).send({ message: "Item not found in cart" });
