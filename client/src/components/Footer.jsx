@@ -192,7 +192,7 @@ const Footer = () => {
       </VStack>
 
       <Box  textAlign="center" fontSize="xs" color="gray.500" bg="black" py={4}>
-        Copyright © 2024 SUGAR Cosmetics. All rights reserved.
+        Copyright © 2024 SUGAR Cosmetics. All rights reserved. 
       </Box>
     </Box>
   );
