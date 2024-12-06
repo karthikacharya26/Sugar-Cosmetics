@@ -22,7 +22,7 @@ ProductRouter.get("/", async (req, res) => {
   }
 
   try {
-    const products = ProductModel.find(query);
+    const products = await ProductModel.find(query);
 
     res.status(200).send({
       totalProducts: products.length,
