@@ -5,10 +5,11 @@ import {
   Image,
   Input,
   InputGroup,
-  InputLeftElement,
   InputRightElement,
   Menu,
   MenuButton,
+  MenuDivider,
+  MenuGroup,
   MenuItem,
   MenuList,
 } from "@chakra-ui/react";
@@ -22,6 +23,34 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NavMain = () => {
+  const lips = [
+    {
+      name: "LIPSTICKS",
+      items: [
+        "TRANSFER PROOF LIPSTICK",
+        "MATTE LIPSTICKS",
+        "LIQUID LIPSTICKS",
+        "CRAYON LIPSTICKS",
+        "POWDER LIPSTICKS",
+        "SATIN LIPSTICKS",
+        "BULLET LIPSTICKS",
+        "LIP GLOSS & LINERS",
+      ],
+    },
+    {
+      name: "LIPCARE",
+      items: [
+        "LIPSTICK FIXERS & REMOVERS",
+        "LIP PRIMERS & SCRUBS",
+        "LIP BALMS",
+      ],
+    },
+    {
+      name: "LIPSTICK SETS & COMBOS",
+      items: ["LIPSTICK SETS", "LIPSTICK COMBOS"],
+    },
+  ];
+
   return (
     <Box>
       {/* Main nav */}
@@ -102,29 +131,49 @@ const NavMain = () => {
       <Box bgColor={"#141414"} h={"50px"}>
         <Box color="white" px={4} py={2}>
           <Flex justify="center" align="center">
-
             {/* Menu Items */}
             <Flex gap={2} align="center">
-              {["SUGAR PLAY","LIPS", "EYES", "FACE", "NAILS", "SKINCARE", "ACCESSORIES"].map(
-                (item) => (
-                  <Menu key={item}>
-                    <MenuButton
-                      as={Button}
-                      variant="ghost"
-                      colorScheme="white"
-                      fontSize={'sm'}
-                    >
-                      {item}
-                    </MenuButton>
+              {[
+                "SUGAR PLAY",
+                "LIPS",
+                "EYES",
+                "FACE",
+                "NAILS",
+                "SKINCARE",
+                "ACCESSORIES",
+              ].map((item, idx) => (
+                <Menu key={item}>
+                  <MenuButton
+                    as={Button}
+                    variant="ghost"
+                    colorScheme="white"
+                    fontSize={"sm"}
+                    _hover={{ bgColor: "#333333" }}
+                  >
+                    {item}
+                  </MenuButton>
+                  {item === "LIPS" ? (
+                    <MenuList bg="white" color="black" display={"flex"}>
+                      {lips.map((category) => (
+                        <MenuGroup key={category.name} title={category.name}>
+                          {category.items.map((subItem, subIdx) => (
+                            <MenuItem key={subIdx} fontSize={"13px"}>
+                              <li>{subItem}</li>
+                            </MenuItem>
+                          ))}
+                          <MenuDivider />
+                        </MenuGroup>
+                      ))}
+                    </MenuList>
+                  ) : (
                     <MenuList bg="white" color="black">
-                      <MenuItem fontWeight="bold">{item}</MenuItem>
                       <MenuItem>Option 1</MenuItem>
                       <MenuItem>Option 2</MenuItem>
                       <MenuItem>Option 3</MenuItem>
                     </MenuList>
-                  </Menu>
-                )
-              )}
+                  )}
+                </Menu>
+              ))}
               {/* Static Items */}
               {[
                 "GIFTING",
@@ -138,8 +187,7 @@ const NavMain = () => {
                   key={item}
                   variant="ghost"
                   colorScheme="white"
-                  fontSize={'sm'}
-
+                  fontSize={"sm"}
                 >
                   {item}
                 </Button>
