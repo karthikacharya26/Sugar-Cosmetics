@@ -63,12 +63,14 @@ const NavMain = () => {
       >
         {/* Logo */}
         <Box>
-          <Image
-            src={
-              "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FLogo%2F5d427f5b-4665-4b7f-9b17-5f089615db21.png&w=640&q=100"
-            }
-            w={"200px"}
-          />
+          <Link to={"/"}>
+            <Image
+              src={
+                "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FLogo%2F5d427f5b-4665-4b7f-9b17-5f089615db21.png&w=640&q=100"
+              }
+              w={"200px"}
+            />
+          </Link>
         </Box>
 
         {/* Search box */}
@@ -158,7 +160,9 @@ const NavMain = () => {
                         <MenuGroup key={category.name} title={category.name}>
                           {category.items.map((subItem, subIdx) => (
                             <MenuItem key={subIdx} fontSize={"13px"}>
-                              <li>{subItem}</li>
+                              <Link to={"/products?category=lipsticks"}>
+                                <li>{subItem}</li>
+                              </Link>
                             </MenuItem>
                           ))}
                           <MenuDivider />
