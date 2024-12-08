@@ -14,9 +14,12 @@ import axios from "axios";
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { loginUser } from "../redux/Login/actions";
+import Login from "./Login";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate()
   const [formData, setFormData] = useState({
     username: "",
     email: "",
@@ -78,6 +81,7 @@ const Signup = () => {
           confirmPassword: "",
         });
       }
+      navigate("/")
     } catch (error) {
       console.error("Error creating account:", error);
       toast({
@@ -171,14 +175,19 @@ const Signup = () => {
               </FormControl>
 
               <Button
-                colorScheme="blue"
+                bgColor={'black'}
+                color={'white'}
                 w="full"
                 onClick={handleSubmit}
                 size="sm"
               >
                 Register
               </Button>
-              
+
+              <Box>
+                <Text my={4}>Already Registered?</Text>
+                <Login />
+              </Box>
             </VStack>
           </Box>
         </Box>
