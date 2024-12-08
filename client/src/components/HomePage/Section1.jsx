@@ -76,7 +76,7 @@ const Section1 = () => {
       >
         {cards.map((url, index) => (
           <Box key={index} height="100%">
-            <Link to="/products?category=clothing">
+            <Link to="/products?category=lipsticks">
               <img
                 src={url}
                 alt={`Slide ${index}`}
