@@ -108,17 +108,23 @@ const NavMain = () => {
 
         {/* Login and cart */}
         <Box display={"flex"} justifyContent={"space-between"} w={"300px"}>
-          <Link to={"/signup"}>
-            <Flex
-              gap={1}
-              alignItems={"center"}
-              color={"white"}
-              fontWeight={"bold"}
-            >
-              <RxAvatar size={"20px"} />
-              Login/Register
-            </Flex>
-          </Link>
+          {isLogin || data?.isAuth ? (
+            <Button onClick={handleLogout} borderRadius={"3xl"}>
+              Logout
+            </Button>
+          ) : (
+            <Link to={"/signup"}>
+              <Flex
+                gap={1}
+                alignItems={"center"}
+                color={"white"}
+                fontWeight={"bold"}
+              >
+                <RxAvatar size={"20px"} />
+                Login/Register
+              </Flex>
+            </Link>
+          )}
 
           <Box
             display={"flex"}
