@@ -21,8 +21,17 @@ import { RxAvatar } from "react-icons/rx";
 
 import React from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const NavMain = () => {
+  const handleLogout = () => {
+    localStorage.clear();
+    window.location.reload();
+  };
+
+  const { isLogin } = useSelector((state) => state.loginState);
+  const data = JSON.parse(localStorage.getItem("user"));
+
   const lips = [
     {
       name: "LIPSTICKS",
@@ -99,7 +108,7 @@ const NavMain = () => {
 
         {/* Login and cart */}
         <Box display={"flex"} justifyContent={"space-between"} w={"300px"}>
-          <Link>
+          <Link to={"/signup"}>
             <Flex
               gap={1}
               alignItems={"center"}
