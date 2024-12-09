@@ -88,11 +88,13 @@ const NavMain = () => {
             bg={"#212121"}
             borderRadius={"md"}
             border={" 1px solid #6c757d"}
+            color={"white"}
           >
             <InputRightElement
               pointerEvents="none"
               bgColor={"white"}
               w={"100px"}
+              color={"black"}
             >
               <SearchIcon />
               Search
