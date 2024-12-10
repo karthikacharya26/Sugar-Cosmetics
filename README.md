@@ -46,31 +46,31 @@ You can view the deployed project here: [SUGAR Cosmetics Clone](https://sugar-co
 
 ### Homepage
 
-![Homepage]()
+![Homepage](https://i.ibb.co/R40QGck/Home.png)
 
 ### Multi-product Page
 
-![Multiproduct Page]()
+![Multiproduct Page](https://i.ibb.co/y82FLwp/Multi-Product.png)
 
 ### Single Product Page
 
-![Single Product Page]()
+![Single Product Page](https://i.ibb.co/8cCznxd/Single-Product.png)
 
 ### Cart Page
 
-![Cart Page]()
+![Cart Page](https://i.ibb.co/FXk6KgD/Cart.png)
 
 ### Login Page
 
-![Login Page]()
+![Login Page](https://i.ibb.co/nPgPCbF/Login.png)
 
 ### Signup Page
 
-![Signup Page]()
+![Signup Page](https://i.ibb.co/pwz8npG/SignUp.png)
 
 ### Payment Integration
 
-![Payment Integration]()
+![Payment Integration](https://i.ibb.co/hXChQ5r/Payment.png)
 ## Installation
 
 To get started with this project locally, follow these steps:
