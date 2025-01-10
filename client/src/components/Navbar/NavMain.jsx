@@ -75,9 +75,9 @@ const NavMain = () => {
           <Link to={"/"}>
             <Image
               src={
-                "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FLogo%2F5d427f5b-4665-4b7f-9b17-5f089615db21.png&w=640&q=100"
+                "https://www.sugarcosmetics.com/cdn/shop/files/Sugal_white_logo_horizontal_orientation.png?v=1614336338&width=280"
               }
-              w={"200px"}
+              w={"180px"}
             />
           </Link>
         </Box>

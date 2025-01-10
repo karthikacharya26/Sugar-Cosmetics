@@ -28,16 +28,13 @@ const Section1 = () => {
 
   // These are the images used in the slide
   const cards = [
-    "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FHomepage%2F33e32bfe-c7e1-4a0e-b6d6-849dbaec0cad.gif&w=3840&q=100",
-    "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FHomepage%2F20124de6-ac81-463a-bed8-7f819f4a8a12.jpg&w=3840&q=100",
-    "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FHomepage%2F6bb6989b-584f-433c-ba92-c7470041d800.jpg&w=3840&q=100",
-    "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FHomepage%2Fe16cc158-a1b2-49c9-8253-48fcab0f0325.jpg&w=3840&q=100",
-    "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FHomepage%2F10aa787c-8ab3-4d9c-9180-cba493e18f1d.jpg&w=3840&q=100",
-    "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FHomepage%2F109be1ae-3451-4fc0-8f05-8ec6d654da07.jpg&w=3840&q=100"
+    "https://www.sugarcosmetics.com/cdn/shop/files/400off-LP-1600x400_1.jpg?v=1735816502&width=1600",
+    "https://www.sugarcosmetics.com/cdn/shop/files/Welcome-offer-10--Off-HP1920x453_2.jpg?v=1734939149&width=1800",
+    "https://www.sugarcosmetics.com/cdn/shop/files/BTR-Eyeshadow-Palette-LP--1600x400_1.gif?v=1734581554&width=1600"
   ];
 
   return (
-    <Box position="relative" width="100%" height="300px">
+    <Box position="relative" width="100%" height="300px" >
       {/* Left Icon */}
       <IconButton
         icon={<ChevronLeftIcon />}

@@ -21,7 +21,7 @@ const Section2 = () => {
     {
       id: 1,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/Ace-Of-Face-Foundation-Stick.jpg?v=1719836444&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/Ace-Of-Face-Foundation-Stick-2.jpg?v=1736421026&width=500",
       title: "Ace Of Face Foundation Stick",
       shades: "15 shades",
       price: "₹1099",
@@ -33,7 +33,7 @@ const Section2 = () => {
     {
       id: 2,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Signature-Makeup-Kit.jpg?v=1719901641&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/SUGAR-Signature-Makeup-Kit.jpg?v=1736171891&width=500",
       title: "SUGAR Signature Makeup Kit",
       shades: "1 shade",
       price: "₹1399",
@@ -46,7 +46,7 @@ const Section2 = () => {
     {
       id: 3,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/Matte-Attack-Transferproof-Lipstick.jpg?v=1719855043&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/Matte-Attack-Transferproof-Lipstick-19.jpg?v=1736421139&width=500",
       title: "Matte Attack Transferproof Lipstick",
       shades: "14 shades",
       price: "₹749",
@@ -58,7 +58,7 @@ const Section2 = () => {
     {
       id: 4,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/Ace-Of-Face-Foundation-Stick.jpg?v=1719836444&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/Dream-Cover-SPF15-Mattifying-Compact-6.jpg?v=1736508970&width=1000",
       title: "Dream Cover SPF15 Mattifying Compact",
       shades: "4 shades",
       price: "₹549",
@@ -91,8 +91,8 @@ const Section2 = () => {
 
   // These are the images used in the slide
   const cards = [
-    "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FHomepage%2F69869838-272b-4179-a7d0-ab1a33ba72c8.gif&w=3840&q=100",
-    "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FHomepage%2Fac325a3f-1cb6-44d6-9c4a-77acc7d0c141.gif&w=3840&q=100",
+    "https://www.sugarcosmetics.com/cdn/shop/files/400off-LP-1600x400_1.jpg?v=1735816502&width=1600",
+    "https://www.sugarcosmetics.com/cdn/shop/files/Welcome-offer-10--Off-HP1920x453_2.jpg?v=1734939149&width=1800",
   ];
 
   return (

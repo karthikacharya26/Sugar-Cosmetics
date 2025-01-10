@@ -20,37 +20,37 @@ import { IoIosArrowForward } from "react-icons/io";
 const Section3 = () => {
   const cards = [
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/94d08ede-948d-475d-b9ea-af89e70a16c7.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/Mousse-Muse-Lip-Cream-Set-of-2.jpg?v=1736171881&width=500",
     },
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/eb1730d5-c956-4760-89cc-f47ebb2fdeb9.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/Matte-Attack-Transferproof-Lipstick-Seal-The-Show-Lip-Primer.jpg?v=1736171904&width=500",
     },
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/7401b53f-61d2-4d20-b230-d52c0835a090.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/SUGAR-POP-Satin-Matte-Lipstick-Set-of-3-Offer_e89d989e-fe99-45ef-8169-a2dc3154a366.jpg?v=1736178762&width=500",
     },
   ];
 
   const cards2 = [
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/35d38ac8-c1f7-4317-a29d-c86270c9998e.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/Iconic-Tile-2022-Air-Kiss_1.jpg?v=1734582210&width=600",
     },
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/717e0853-03c4-4b97-8b54-1945ce8924fa.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/Iconic-Tile-2023-LaLaLove.jpg?v=1734582295&width=600",
     },
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/e0c69e17-7245-4ec8-ab0e-ce2e6b974369.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/Iconic-Tile-2024-MM_1.jpg?v=1734582271&width=600",
     },
   ];
 
   const cards3 = [
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/1e4f4408-9009-48b2-a6fd-0a7c1af3b858.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/Blog-banner.jpg?v=1734688186&width=1600",
     },
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/480e52dc-727f-4b35-bd5f-4ece7974cee6.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/image_30.png?v=1734589537&width=600",
     },
     {
-      url: "https://in.sugarcosmetics.com/_next/image?url=https://images.sugarcosmetics.com/Homepage/c3002fdc-a7d6-4565-86f1-ad0310d9cc7c.jpg&w=3840&q=75",
+      url: "https://www.sugarcosmetics.com/cdn/shop/files/image_31.png?v=1734589553&width=600",
     },
   ];
 
@@ -58,7 +58,7 @@ const Section3 = () => {
     {
       id: 1,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Drop-A-Tint-Lip-Oil.jpg?v=1728574974&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/SUGAR-Drop-A-Tint-Lip-Oil-7.jpg?v=1736421561&width=1600",
       title: "SUGAR Drop A Tint Lip Oil with shades",
       shades: "6 shades",
       price: "₹599",
@@ -68,7 +68,7 @@ const Section3 = () => {
     {
       id: 2,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/Glide-Peptide-Serum-Lipstick.jpg?v=1729939439&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/Glide-Peptide-Serum-Lipstick-13.jpg?v=1736421591&width=1600",
       title: "Glide Peptide Serum Lipstick",
       shades: "7 shades",
       price: "₹499",
@@ -79,7 +79,7 @@ const Section3 = () => {
     {
       id: 3,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/Partner-In-Shine-Transferproof-Lip-Gloss_ec7ab486-7c12-4ce0-8487-5d285d5d6c15.jpg?v=1723822866&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/Partner-In-Shine-Transferproof-Lip-Gloss-8_9b89652e-80b6-4bcc-9f5e-923eadda6428.jpg?v=1736171778&width=500",
       title: "Partner in shine transferpoof lip gloss",
       shades: "15 shades",
       price: "₹699",
@@ -90,7 +90,7 @@ const Section3 = () => {
     {
       id: 4,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Matte-Match-Transferproof-Foundation_c454bc14-2c7c-4885-93e4-edee1c6aa831.jpg?v=1723114098&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/SUGAR-Matte-Match-Transferproof-Foundation-9.jpg?v=1736421511&width=1000",
       title: "Sugar Matte Match Transferproof Foundation",
       shades: "15 shades",
       price: "₹599",
@@ -104,7 +104,7 @@ const Section3 = () => {
     {
       id: 1,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Play-Mega-Hype-Colour-Changing-Lip-Oil.jpg?v=1719899159&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/SUGAR-Play-Mega-Hype-Colour-Changing-Lip-Oil.jpg?v=1736171976&width=500",
       title: "SUGAR-Play-Mega-Hype-Colour-Changing-Lip-Oil",
       shades: "6 shades",
       price: "₹599",
@@ -114,7 +114,7 @@ const Section3 = () => {
     {
       id: 2,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Play-Power-Drip-Lip-Gloss.jpg?v=1719893402&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/SUGAR-Play-Power-Drip-Lip-Gloss-2.jpg?v=1736421361&width=500",
       title: "SUGAR-Play-Power-Drip-Lip-Gloss",
       shades: "7 shades",
       price: "₹399",
@@ -125,7 +125,7 @@ const Section3 = () => {
     {
       id: 3,
       image:
-        "https://in.sugarcosmetics.com/_next/image?url=https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Play-Smooth-Operator-Lip-Crayon.jpg?v=1719899956&w=640&q=75",
+        "https://www.sugarcosmetics.com/cdn/shop/files/SUGAR-Play-Smooth-Operator-Lip-Crayon.jpg?v=1736171932&width=500",
       title: "SUGAR-Play-Smooth-Operator-Lip-Crayon",
       shades: "15 shades",
       price: "₹599",
